@@ -1,0 +1,6 @@
+{
+  "name": "Anngeo65",
+  "tagline": "",
+  "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n    <title>Простейший пример создания карты с использованием API Яндекс.Карт 2.1.</title>\r\n    <script src=\"http://api-maps.yandex.ru/2.1/?lang=ru_RU\" type=\"text/javascript\"></script>\r\n \r\n    <style>\r\n        body, html {\r\n            padding: 0;\r\n            margin: 0;\r\n            width: 100%;\r\n            height: 100%;\r\n        }\r\n    </style>\r\n \r\n<script type=\"text/javascript\">\r\nvar myMap;\r\n \r\n// Дождёмся загрузки API и готовности DOM.\r\nymaps.ready(init);\r\n \r\nfunction init () {\r\n    // Создание экземпляра карты и его привязка к контейнеру с\r\n    // заданным id (\"map\").\r\n    myMap = new ymaps.Map('map', {\r\n        // При инициализации карты обязательно нужно указать\r\n        // её центр и коэффициент масштабирования.\r\n        center: [56.326944, 44.0075], // Нижний Новгород\r\n        zoom: 12\r\n    });    \r\n}\r\n</script>\r\n</head>\r\n \r\n<body>\r\n<div id=\"map\" style=\"width: 100%; height: 90%\"></div>\r\n</body>\r\n</html>",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
